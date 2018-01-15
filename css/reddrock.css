@@ -1,6 +1,6 @@
 body {
 	text-align: center;
-	background: pink;
+	background: #fff;
 }
 
 .hidden {
@@ -9,4 +9,21 @@ body {
 
 .visible {
 	display: block;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	margin: 10px;
+}
+
+li a {
+	color: #000;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
 }

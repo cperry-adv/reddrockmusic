@@ -1,5 +1,8 @@
 $(document).ready(function(){
     $("#about").click(function(){
-        $(".about-container").show();
+        $(".about-container").toggleClass('hidden visible');
+    });
+    $("#contact").click(function(){
+        $(".contact-container").toggleClass('hidden visible');
     });
 });

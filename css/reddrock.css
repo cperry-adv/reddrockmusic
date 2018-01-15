@@ -96,3 +96,9 @@ label {
 	padding-top: 5px;
 	font-size: 1.4em;
 }
+
+.about-container {
+	margin-top: 80px;
+	text-align: center;
+	padding: 0 400px;
+}

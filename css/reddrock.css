@@ -28,6 +28,11 @@ li a {
 	font-weight: bold;
 }
 
+.form-item {
+	display: block;
+	width: 100%;
+}
+
 #contact-area input, #contact-area textarea {
 	padding: 5px;
 	width: 471px;

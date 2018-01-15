@@ -18,8 +18,16 @@ h1 {
 	display: block;
 }
 
+.logo {
+	float: left;
+}
+
 .logo img {
 	max-width: 200px;
+}
+
+.tagline {
+	float: right;
 }
 
 ul {

@@ -101,6 +101,7 @@ li a {
 
 .form-item {
 	display: flex;
+	flex-direction: column;
 	width: 100%;
 }
 

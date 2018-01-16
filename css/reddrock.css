@@ -105,6 +105,11 @@ li a {
 	width: 100%;
 }
 
+.name {
+	display: flex;
+	flex-direction: row;
+}
+
 .form-item-half {
 	display: flex;
 	flex-direction: column;

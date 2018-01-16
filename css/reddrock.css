@@ -71,6 +71,15 @@ li a {
 	width: 48%;
 }
 
+#about {
+	border-right: 2px solid #000;
+    padding-right: 15px;
+}
+
+#contact {
+	margin-left: 0;
+}
+
 .contact-container input, .contact-container textarea {
 	padding: 5px;
 	font-size: 20px;

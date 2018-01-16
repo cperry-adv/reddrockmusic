@@ -134,6 +134,10 @@ label {
 	bottom: 0;
 }
 
+.footer-menu {
+	text-align: center;
+}
+
 .wrap {
 	padding-bottom: 150px;
 }

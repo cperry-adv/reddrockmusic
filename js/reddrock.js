@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("#about").click(function(){
-        $(".about-container").toggleClass('hidden visible').animate({left: '250px'});
+        $(".about-container").toggleClass('hidden visible').animate({opacity: 1.0, left: '120px'}, 600);
         if ($(".contact-container").hasClass('visible')) {
           $(".contact-container").toggleClass('visible hidden');
         }

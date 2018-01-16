@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("#about").click(function(){
-        $(".about-container").slideDown( "slow" ).toggleClass('hidden visible');
+        $(".about-container").toggleClass('hidden visible');
         if ($(".contact-container").hasClass('visible')) {
           $(".contact-container").toggleClass('visible hidden');
         }

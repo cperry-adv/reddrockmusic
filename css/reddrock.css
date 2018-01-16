@@ -68,7 +68,7 @@ li a {
 
 #contact-area input, #contact-area textarea {
 	padding: 5px;
-	font-size: 1.4em;
+	font-size: 20px;
 	margin: 0px 0px 10px 0px;
 	border: 2px solid #ccc;
 }
@@ -91,7 +91,7 @@ label {
 	margin-right: 15px;
 	width: 100px;
 	padding-top: 5px;
-	font-size: 1.4em;
+	font-size: 20px;
 }
 
 .about-container {

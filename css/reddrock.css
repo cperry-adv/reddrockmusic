@@ -47,6 +47,11 @@ h1 {
 	flex-direction: column;
 }
 
+.main {
+	display: flex;
+	
+}
+
 .hidden {
 	display: none;
 }
@@ -64,7 +69,8 @@ h1 {
 }
 
 .tagline {
-	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
 .music {

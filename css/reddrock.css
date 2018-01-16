@@ -109,7 +109,7 @@ li a {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: baseline;
+	align-items: flex-end;
 }
 
 .form-item-half {

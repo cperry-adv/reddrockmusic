@@ -107,6 +107,7 @@ li a {
 
 .form-item-half {
 	display: flex;
+	flex-direction: column;
 	width: 48%;
 }
 

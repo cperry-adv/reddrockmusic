@@ -72,6 +72,7 @@ li a {
 	margin: 0px 0px 10px 0px;
 	border: 2px solid #ccc;
 	width: 80%;
+	float: right;
 }
 
 .contact-container textarea {

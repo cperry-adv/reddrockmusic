@@ -55,7 +55,7 @@ h1 {
 }
 
 .logo {
-	
+	max-height: 200px;
 }
 
 .nav {

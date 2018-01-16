@@ -49,7 +49,7 @@ h1 {
 
 .main {
 	display: flex;
-	
+	flex-grow: 1;
 }
 
 .hidden {
@@ -71,6 +71,7 @@ h1 {
 .tagline {
 	display: flex;
 	justify-content: center;
+	flex-shrink: 0;
 }
 
 .music {

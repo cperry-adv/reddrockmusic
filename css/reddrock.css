@@ -134,6 +134,10 @@ label {
 	bottom: 0;
 }
 
+.wrap {
+	padding-bottom: 150px;
+}
+
 .sticky-header {
   position: fixed;
   top: 0;

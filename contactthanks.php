@@ -12,7 +12,7 @@
 <body>
 <div class="header">
 
-<img class="logo" src="images/reddlogo.png">
+<img class="logo" src="images/reddcolor.png">
 
 <div class="nav">
 <ul>

@@ -24,7 +24,6 @@ h1 {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	background: #f7f8f9;
-	flex-grow: 1;
 }
 
 .footer {

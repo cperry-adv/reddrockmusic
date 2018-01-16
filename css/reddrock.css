@@ -108,13 +108,14 @@ li a {
 .name {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 }
 
 .form-item-half {
 	display: flex;
 	flex-direction: column;
 	width: 48%;
-	justify-content: space-between;
+
 }
 
 #about {

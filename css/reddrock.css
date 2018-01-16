@@ -39,6 +39,7 @@ h1 {
 	padding-bottom: 150px;
 	display: flex;
 	flex-grow: 8;
+	justify-content: center;
 }
 
 .hidden {

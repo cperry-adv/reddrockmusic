@@ -24,6 +24,9 @@ h1 {
 .footer {
 	display: flex;
 	background: #f7f8f9;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: nowrap;
 }
 
 .footer-menu {

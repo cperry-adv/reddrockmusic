@@ -73,7 +73,7 @@ h1 {
 .tagline {
 	display: flex;
 	justify-content: center;
-	flex-shrink: 0;
+	flex-shrink: 1;
 }
 
 .music {

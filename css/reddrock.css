@@ -100,3 +100,8 @@ label {
 	width: 65%;
 	font-size: 20px;
 }
+
+.contact-container {
+	margin: 80px auto;
+	width: 65%;
+}

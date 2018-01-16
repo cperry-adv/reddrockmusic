@@ -130,16 +130,12 @@ label {
 	width: 100%;
 	background: #f7f8f9;
 	height: 150px;
+	position: absolute;
+	bottom: 0;
 }
 
 .sticky-header {
   position: fixed;
   top: 0;
-  width: 100%
-}
-
-.sticky-footer {
-  position: fixed;
-  bottom: 0;
   width: 100%
 }

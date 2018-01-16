@@ -3,7 +3,8 @@
 $EmailFrom = "reddrockmusic@gmail.com";
 $EmailTo = "reddrockmusic@gmail.com";
 $Subject = Trim(stripslashes($_POST['Subject'])); 
-$Name = Trim(stripslashes($_POST['Name'])); 
+$NameFirst = Trim(stripslashes($_POST['Name1'])); 
+$NameLast = Trim(stripslashes($_POST['Name2'])); 
 $Email = Trim(stripslashes($_POST['Email'])); 
 $Message = Trim(stripslashes($_POST['Message'])); 
 
@@ -16,8 +17,11 @@ if (!$validationOK) {
 
 // prepare email body text
 $Body = "";
-$Body .= "Name: ";
-$Body .= $Name;
+$Body .= "First Name: ";
+$Body .= $NameFirst;
+$Body .= "\n";
+$Body .= "Last Name: ";
+$Body .= $NameLast;
 $Body .= "\n";
 $Body .= "Email: ";
 $Body .= $Email;

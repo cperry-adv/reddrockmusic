@@ -66,6 +66,11 @@ li a {
 	width: 100%;
 }
 
+.form-item-half {
+	display: inline-block;
+	width: 50%;
+}
+
 .contact-container input, .contact-container textarea {
 	padding: 5px;
 	font-size: 20px;

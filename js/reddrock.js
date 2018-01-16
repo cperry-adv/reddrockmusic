@@ -1,17 +1,11 @@
 $(document).ready(function(){
 
     $("#about").click(function(){
-         $(".main").html("Hello World");
-        $(".about-container").toggleClass('hidden visible');
-        if ($(".contact-container").hasClass('visible')) {
-          $(".contact-container").toggleClass('visible hidden');
-        }
+         $(".main").html('<div class="about-container"><p>Redd Rock International Music is your one-stop-shop music publishing company that does everything from licensing to creating the music you need.  We offer personalized music for your project, licensing, plus any information you may need on the subject, as well as a library of music from current bands for you to choose from.  Redd Rock International Music will write your music, place it, and handle all the paperwork.</p></div>');
+        
     });
     $("#contact").click(function(){
-        $(".main").html("boondoggle");
-        $(".contact-container").toggleClass('hidden visible');
-        if ($(".about-container").hasClass('visible')) {
-          $(".about-container").toggleClass('visible hidden');
-        }
+        $(".main").html('<div class="contact-container hidden"><form method="post" action="contactengine.php"><div class="form-item" style="margin-bottom:15px;"><div class="form-item-half"><label for="Name">Name:</label><input type="text" name="Name1" id="Name1" /><span class="small-label">First Name</span></div><div class="form-item-half" style="margin-left: 3.4%;"><input type="text" name="Name2" id="Name2" /><span class="small-label">Last Name</span></div></div><div class="form-item"><label for="Email">Email:</label><input type="text" name="Email" id="Email" /></div><div class="form-item"><label for="City">Subject:</label><input type="text" name="Subject" id="Subject" /></div><div class="form-item"><label for="Message">Message:</label><textarea name="Message" rows="20" cols="20" id="Message"></textarea></div><div style="position:relative;top:25px;" class="form-item"><input type="submit" name="submit" value="Submit" class="submit-button" /></div></form></div>');
+        
     });
 });

@@ -66,22 +66,22 @@ li a {
 	width: 100%;
 }
 
-#contact-area input, #contact-area textarea {
+.contact-container input, .contact-container textarea {
 	padding: 5px;
 	font-size: 20px;
 	margin: 0px 0px 10px 0px;
 	border: 2px solid #ccc;
 }
 
-#contact-area textarea {
+.contact-container textarea {
 	height: 90px;
 }
 
-#contact-area textarea:focus, #contact-area input:focus {
+.contact-container textarea:focus, .contact-container input:focus {
 	border: 2px solid #900;
 }
 
-#contact-area input.submit-button {
+.contact-container input.submit-button {
 	width: 100px;
 	float: right;
 }

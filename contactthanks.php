@@ -1,6 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Strict//EN">
 
 <head>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <title>Message Sent!</title>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script src="http://fancywizard.com/js/reddrock.js"></script>

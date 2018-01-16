@@ -1,8 +1,10 @@
 body {
 	background: #fff;
 	font-family: myriad-pro-condensed, sans-serif;
-font-style: normal;
-font-weight: 300;
+    font-style: normal;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -11,11 +13,29 @@ h1 {
 }
 
 .header {
-	display: block;
+	display: flex;
 	width: 100%;
 	height: 150px;
 	margin-bottom: 100px;
 	background: #f7f8f9;
+}
+
+.footer {
+	display: flex;
+	width: 100%;
+	background: #f7f8f9;
+	height: 150px;
+	position: absolute;
+	bottom: 0;
+}
+
+.footer-menu {
+	text-align: center;
+}
+
+.wrap {
+	padding-bottom: 150px;
+	display: flex;
 }
 
 .hidden {
@@ -123,23 +143,6 @@ label {
 
 .submit-button {
 	border: 2px solid #000;
-}
-
-.footer {
-	display: block;
-	width: 100%;
-	background: #f7f8f9;
-	height: 150px;
-	position: absolute;
-	bottom: 0;
-}
-
-.footer-menu {
-	text-align: center;
-}
-
-.wrap {
-	padding-bottom: 150px;
 }
 
 .sticky-header {

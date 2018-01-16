@@ -91,12 +91,12 @@ li a {
 }
 
 .form-item {
-	display: block;
+	display: flex;
 	width: 100%;
 }
 
 .form-item-half {
-	display: inline-block;
+	display: flex;
 	width: 48%;
 }
 
@@ -128,12 +128,12 @@ li a {
 
 .contact-container input.submit-button {
 	width: 100px;
-	float: right;
+	
 }
 
 label {
 	font-size: 20px;
-    display: block;
+    display: flex;
 }
 
 .about-container {

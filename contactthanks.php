@@ -1,15 +1,25 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Strict//EN">
 
 <head>
-	<title>Message Sent!</title>
-	
-	<link rel="stylesheet" type="text/css" href="css/reddrock.css" />
+<title>Message Sent!</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://fancywizard.com/js/reddrock.js"></script>
+<link rel="stylesheet" href="css/reddrock.css">
+<link rel="stylesheet" href="https://use.typekit.net/grj4fqq.css">
 </head>
 
 <body>
 <div class="header">
-<a href="mailto:info@reddrockmusic.com"><img src="images/reddlogo.png"></a>
-<h1>Redd Rock International Music Publishing</h1>
+
+<img class="logo" src="images/reddlogo.png">
+
+<div class="nav">
+<ul>
+<li><a href="#" id="about">About</a></li>
+<li><a href="#" id="contact">Contact</a></li>
+</ul>
+</div>
+
 </div>
 		
 			

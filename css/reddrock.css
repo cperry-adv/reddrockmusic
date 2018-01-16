@@ -24,7 +24,7 @@ h1 {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	background: #f7f8f9;
-	flex-grow: 1;
+	flex-grow: 8;
 }
 
 .footer {
@@ -33,7 +33,7 @@ h1 {
 	justify-content: center;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	flex-grow: 1;
+	flex-grow: 8;
 }
 
 .footer-menu {
@@ -42,7 +42,7 @@ h1 {
 
 .wrap {
 	display: flex;
-	flex-grow: 8;
+	flex-grow: 1;
 	justify-content: center;
 }
 

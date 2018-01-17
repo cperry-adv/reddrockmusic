@@ -13,6 +13,6 @@ $(document).ready(function(){
     });
     // Contact form submit handler for thank you message
     $(".submit-button").submit(function() {
-        $(".thanks").show();
+        $(".thanks").show("slow");
     });
 });

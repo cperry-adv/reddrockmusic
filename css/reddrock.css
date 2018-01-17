@@ -84,14 +84,17 @@ h1 {
 .tagline {
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 }
 
 .music {
     font-size: 120px;
+    text-align: center;
 }
 
 .wayyousee {
     font-size: 37px;
+    text-align: center;
 }
 
 ul {

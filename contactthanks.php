@@ -26,6 +26,9 @@
 
 		</div>
 		<div class="wrap">
+			<div class="thanks">
+				<h1>Message Sent!  Thanks for reaching out!</h1>
+			</div>
 			<div class="tagline">
 				<div class="music"><h1>MUSIC</h1></div>
 				<div class="wayyousee"><h1>THE WAY YOU SEE IT</h1></div>

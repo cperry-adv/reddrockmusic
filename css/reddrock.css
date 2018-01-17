@@ -79,6 +79,7 @@ h1 {
 
 .thanks {
 	text-align: center;
+	display: none;
 	padding-top: 40px;
 }
 

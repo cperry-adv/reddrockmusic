@@ -13,3 +13,4 @@ $(document).ready(function(){
     });
     // Contact form submit handler for thank you message
     $(".thanks").show("slow");
+});

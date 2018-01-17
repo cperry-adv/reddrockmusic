@@ -62,7 +62,7 @@ h1 {
 }
 
 .main {
-	display: flex;
+	display: none;
 }
 
 .hidden {

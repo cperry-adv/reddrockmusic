@@ -12,5 +12,5 @@ $(document).ready(function(){
         $(".main").css('display', 'block').animate({opacity: 1.0,left: '120px'}, 600);
     });
     // Contact form submit handler for thank you message
-    $(".thanks").show("slow");
+    $(".thanks").show("slow").delay(800).animate({opacity: 1.0,right: '-120px'}, 600);
 });

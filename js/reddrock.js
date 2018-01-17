@@ -12,7 +12,8 @@ $(document).ready(function(){
         $(".main").css('display', 'block').animate({opacity: 1.0,left: '120px'}, 600);
     });
     // Contact form submit handler for thank you message
-    $("#contactform").submit(function() {
-        $(".thanks").show("slow");
+    $("#contactform").submit(function( event ) {
+        alert( "Handler for .submit() called." );
+        event.preventDefault();
     });
 });

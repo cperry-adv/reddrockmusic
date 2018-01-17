@@ -22,7 +22,7 @@ body {
 }
 
 .push {
-    height: 100px; /* '.push' must be the same height as 'footer' */
+    height: 40px; /* '.push' must be the same height as 'footer' */
 }
 
 h1 {

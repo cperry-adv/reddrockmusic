@@ -23,7 +23,7 @@ body {
 
 .push {
 	border: 1px solid #ff00ff;
-    height: 50px; /* '.push' must be the same height as 'footer' */
+    height: 150px; /* '.push' must be the same height as 'footer' */
 }
 
 h1 {
@@ -48,6 +48,8 @@ h1 {
 	justify-content: center;
 	flex-direction: row;
 	flex-wrap: nowrap;
+	height: 100px;
+    padding: 25px 0 0 0;
 }
 
 .footer-menu {

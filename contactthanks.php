@@ -26,9 +26,9 @@
 
 		</div>
 		<div class="wrap">
-			<div style="text-align:center;width:100%;">
+			<div class="thanks">
 		        <h1>Your message has been sent!</h1><br />
-				<p><a href="index.html">Back to Home</a></p>
+				<p><a href="http://www.reddrockmusic.com">Back to Home</a></p>
 			</div>
 		</div>
 		<div class="push"></div>

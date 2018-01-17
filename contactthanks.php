@@ -16,7 +16,7 @@
 <body>
 	<div class="wrapper">
 		<div id="header" class="header">
-			<img class="logo" alt="ReddRockMusic" title="ReddRockMusic" src="images/reddcolor.png">
+			<a href="http://www.reddrockmusic.com"><img class="logo" alt="ReddRockMusic" title="ReddRockMusic" src="images/reddcolor.png" /></a>
 				<div class="nav">
 					<ul class="header-menu">
 						<li id="about"><a href="#" >About</a></li>
@@ -26,12 +26,11 @@
 
 		</div>
 		<div class="wrap">
-			<div id="main" class="main" style="display: block;">
-				<div class="thanks">
-			        <h1>Your message has been sent!</h1><br />
-					<p><a href="http://www.reddrockmusic.com">Back to Home</a></p>
-				</div>
+			<div class="tagline">
+				<div class="music"><h1>MUSIC</h1></div>
+				<div class="wayyousee"><h1>THE WAY YOU SEE IT</h1></div>
 			</div>
+			<div id="main" class="main"></div>
 		</div>
 		<div class="push"></div>
 	</div>

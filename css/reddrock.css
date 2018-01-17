@@ -48,6 +48,7 @@ h1 {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	height: 100px;
+	align-items: center;
 }
 
 .footer-menu {

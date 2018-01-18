@@ -1,0 +1,184 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: #fff;
+	font-family: myriad-pro-condensed, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+h1 {
+	font-weight: 300;
+	font-style: normal;
+	display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	background: #f7f8f9;
+	flex-shrink: 0;
+}
+
+.footer {
+	display: flex;
+	background: #f7f8f9;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+
+.footer-menu {
+	text-align: center;
+}
+
+.wrap {
+	display: flex;
+	flex-grow: 8;
+	justify-content: center;
+	flex-direction: column;
+	overflow-y: auto;
+}
+
+.main {
+	display: flex;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+
+.hidden {
+	display: none;
+}
+
+.visible {
+	display: block;
+}
+
+.logo {
+	max-height: 160px;
+}
+
+.nav {
+
+}
+
+.tagline {
+	display: flex;
+	justify-content: center;
+	flex-shrink: 1;
+}
+
+.music {
+    font-size: 120px;
+}
+
+.wayyousee {
+    font-size: 37px;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	margin: 10px;
+}
+
+li a {
+	color: #000;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.form-item {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.name {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 15px;
+}
+
+.form-item-half {
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+
+}
+
+#about {
+	border-right: 2px solid #000;
+    padding-right: 15px;
+}
+
+#contact {
+	margin-left: 0;
+}
+
+.contact-container input, .contact-container textarea {
+	padding: 5px;
+	font-size: 20px;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+	width: 100%;
+	background: #f9f9f9;
+}
+
+.contact-container textarea {
+	height: 90px;
+}
+
+.contact-container textarea:focus, .contact-container input:focus {
+	border: 2px solid #900;
+}
+
+.contact-container input.submit-button {
+	width: 100px;
+	
+}
+
+label {
+	font-size: 20px;
+    display: flex;
+}
+
+.about-container {
+	margin: 80px auto;
+	text-align: center;
+	width: 65%;
+	font-size: 20px;
+}
+
+.contact-container {
+	margin: 80px auto;
+	width: 65%;
+}
+
+.submit-button {
+	border: 2px solid #000;
+}
+
+.sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%
+}

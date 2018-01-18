@@ -1,7 +1,7 @@
 $(document).ready(function(){
     // 'About' link
     $("#about").click(function(){
-         $(".main").html('<div class="about-container"><p>Redd Rock International Music is your one-stop-shop music publishing company that does everything from licensing to creating the music you need.  We offer personalized music for your project, licensing, plus any information you may need on the subject, as well as a library of music from current bands for you to choose from.  Redd Rock International Music will write your music, place it, and handle all the paperwork.</p></div>');
+         $(".main").html('<div class="about-container"><p>Redd Rock Music is a Los Angeles based Production House composed of talented musicians and sound designers with years of expertise in many facets of the entertainment industry.  Whether you are in need of an original song, composition, sound design, obscure “noise” or just want to have a chat, unearthing Redd Rock Music was no oversight.  Allow us to be the ambassadors to your audio as we envision your soundtrack.  Redd Rock Music - Music The Way You See It</p></div>');
          $('html, body').animate({scrollTop: $("#main").offset().top}, 1000);
          $(".main").css('display', 'block').animate({opacity: 1.0,left: '120px'}, 600);
     });

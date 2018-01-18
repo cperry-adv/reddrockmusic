@@ -1,7 +1,7 @@
 <?php
 
 $EmailFrom = "redd@reddrockmusic.com";
-$EmailTo = "chris@reddrockmusic.com,thefancywizard@gmail.com";
+$EmailTo = "chris@reddrockmusic.com,redd@reddrockmusic.com,enrique@reddrockmusic.com,jay@reddrockmusic.com";
 $Subject = Trim(stripslashes($_POST['Subject'])); 
 $NameFirst = Trim(stripslashes($_POST['Name1'])); 
 $NameLast = Trim(stripslashes($_POST['Name2'])); 
@@ -16,7 +16,8 @@ if (!$validationOK) {
 }
 
 // prepare email body text
-$Body = "";
+$Body = "Redd Rock Music Website Contact Form Submission";
+$Body .= "\n";
 $Body .= "First Name: ";
 $Body .= $NameFirst;
 $Body .= "\n";

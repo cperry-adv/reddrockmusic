@@ -1,6 +1,6 @@
 <?php
 
-$EmailFrom = "redd@reddrockmusic.com";
+$EmailFrom = "info@reddrockmusic.com";
 $EmailTo = "chris@reddrockmusic.com,redd@reddrockmusic.com,enrique@reddrockmusic.com,jay@reddrockmusic.com";
 $Subject = Trim(stripslashes($_POST['Subject'])); 
 $NameFirst = Trim(stripslashes($_POST['Name1'])); 

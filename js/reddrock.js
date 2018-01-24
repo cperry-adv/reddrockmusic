@@ -3,7 +3,7 @@ $(document).ready(function(){
     $("#about").click(function(){
          $("#about").addClass('active');
          $("#contact").removeClass('active');
-         $(".main").html('<div class="about-container"><p>Redd Rock Music is a Los Angeles based Production House composed of talented musicians and sound designers with years of expertise in many facets of the entertainment industry.  Whether you are in need of an original song, composition, sound design, obscure “noise” or just want to have a chat, unearthing Redd Rock Music was no oversight.  Allow us to be the ambassadors to your audio as we envision your soundtrack.  Redd Rock Music - Music The Way You See It</p></div>');
+         $(".main").html('<div class="about-container"><p>Redd Rock Music is a Los Angeles based Production House composed of talented musicians and sound designers with years of expertise in many facets of the entertainment industry.  Whether you are in need of an original song, composition, sound design, obscure “noise” or just want to have a chat, unearthing Redd Rock Music was no oversight.  Allow us to be the ambassadors to your audio as we envision your soundtrack. <br /> Redd Rock Music - Music The Way You See It</p></div>');
          $('html, body').animate({scrollTop: $("#main").offset().top}, 1000);
          $(".main").css('display', 'block').animate({opacity: 1.0,left: '120px'}, 600);
     });

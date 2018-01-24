@@ -156,6 +156,7 @@ li a {
 #about, #login {
 	border-right: 2px solid #000;
     padding-right: 15px;
+    margin-left: 0;
 }
 
 #contact {

@@ -21,7 +21,7 @@ $(document).ready(function(){
         $("#login").addClass('active');
         $("#contact").removeClass('active');
         $("#about").removeClass('active');
-        $(".main").html('<div class="contact-container"><form id="loginform" method="post" action="login.php"><div class="form-item"><label for="login">Login:</label><input type="text" name="login"></div><div class="form-item"><input type="text" name="password"></div><div class="form-item"><input type="submit" name="submit" value="Submit" class="submit-button" /></div></form></div>');
+        $(".main").html('<div class="contact-container"><form id="loginform" method="post" action="login.php"><div class="form-item"><label for="login">Login:</label><input type="text" name="login"></div><div class="form-item"><label for="password">Password:</label><input type="text" name="password"></div><div class="form-item"><input type="submit" name="submit" value="Submit" class="submit-button" /></div></form></div>');
         $('html, body').animate({scrollTop: $("#main").offset().top}, 1000);
         $(".main").css('display', 'block').animate({opacity: 1.0,left: '120px'}, 600);
     });

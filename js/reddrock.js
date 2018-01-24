@@ -27,4 +27,5 @@ $(document).ready(function(){
     });
     // Contact form submit handler for thank you message
     $(".thanks").show("slow").delay(2000).fadeOut("slow");
+    $(".error").show("slow").delay(2000).fadeOut("slow");
 });

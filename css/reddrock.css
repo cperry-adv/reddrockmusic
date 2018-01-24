@@ -153,13 +153,13 @@ li a {
 
 }
 
-#about, #login {
+#about, #contact {
 	border-right: 2px solid #000;
     padding-right: 15px;
     margin-left: 0;
 }
 
-#contact {
+#login {
 	margin-left: 0;
 }
 
